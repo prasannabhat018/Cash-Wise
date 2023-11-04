@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		152D42C12AF658B100844A39 /* CashWiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152D42C02AF658B100844A39 /* CashWiseApp.swift */; };
+		152D42C32AF658B100844A39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152D42C22AF658B100844A39 /* ContentView.swift */; };
+		152D42C52AF658B100844A39 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152D42C42AF658B100844A39 /* Item.swift */; };
+		152D42C72AF658B200844A39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 152D42C62AF658B200844A39 /* Assets.xcassets */; };
+		152D42CA2AF658B200844A39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 152D42C92AF658B200844A39 /* Preview Assets.xcassets */; };
+		152D42D42AF658B200844A39 /* CashWiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152D42D32AF658B200844A39 /* CashWiseTests.swift */; };
+		152D42DE2AF658B200844A39 /* CashWiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152D42DD2AF658B200844A39 /* CashWiseUITests.swift */; };
+		152D42E02AF658B200844A39 /* CashWiseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152D42DF2AF658B200844A39 /* CashWiseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		152D42D02AF658B200844A39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 152D42B52AF658B100844A39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 152D42BC2AF658B100844A39;
+			remoteInfo = CashWise;
+		};
+		152D42DA2AF658B200844A39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 152D42B52AF658B100844A39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 152D42BC2AF658B100844A39;
+			remoteInfo = CashWise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		152D42BD2AF658B100844A39 /* CashWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		152D42C02AF658B100844A39 /* CashWiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashWiseApp.swift; sourceTree = "<group>"; };
+		152D42C22AF658B100844A39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		152D42C42AF658B100844A39 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		152D42C62AF658B200844A39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		152D42C92AF658B200844A39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		152D42CF2AF658B200844A39 /* CashWiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashWiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		152D42D32AF658B200844A39 /* CashWiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashWiseTests.swift; sourceTree = "<group>"; };
+		152D42D92AF658B200844A39 /* CashWiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashWiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		152D42DD2AF658B200844A39 /* CashWiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashWiseUITests.swift; sourceTree = "<group>"; };
+		152D42DF2AF658B200844A39 /* CashWiseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashWiseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		152D42BA2AF658B100844A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152D42CC2AF658B200844A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152D42D62AF658B200844A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		152D42B42AF658B100844A39 = {
+			isa = PBXGroup;
+			children = (
+				152D42BF2AF658B100844A39 /* CashWise */,
+				152D42D22AF658B200844A39 /* CashWiseTests */,
+				152D42DC2AF658B200844A39 /* CashWiseUITests */,
+				152D42BE2AF658B100844A39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		152D42BE2AF658B100844A39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				152D42BD2AF658B100844A39 /* CashWise.app */,
+				152D42CF2AF658B200844A39 /* CashWiseTests.xctest */,
+				152D42D92AF658B200844A39 /* CashWiseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		152D42BF2AF658B100844A39 /* CashWise */ = {
+			isa = PBXGroup;
+			children = (
+				152D42C02AF658B100844A39 /* CashWiseApp.swift */,
+				152D42C22AF658B100844A39 /* ContentView.swift */,
+				152D42C42AF658B100844A39 /* Item.swift */,
+				152D42C62AF658B200844A39 /* Assets.xcassets */,
+				152D42C82AF658B200844A39 /* Preview Content */,
+			);
+			path = CashWise;
+			sourceTree = "<group>";
+		};
+		152D42C82AF658B200844A39 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				152D42C92AF658B200844A39 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		152D42D22AF658B200844A39 /* CashWiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				152D42D32AF658B200844A39 /* CashWiseTests.swift */,
+			);
+			path = CashWiseTests;
+			sourceTree = "<group>";
+		};
+		152D42DC2AF658B200844A39 /* CashWiseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				152D42DD2AF658B200844A39 /* CashWiseUITests.swift */,
+				152D42DF2AF658B200844A39 /* CashWiseUITestsLaunchTests.swift */,
+			);
+			path = CashWiseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		152D42BC2AF658B100844A39 /* CashWise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152D42E32AF658B200844A39 /* Build configuration list for PBXNativeTarget "CashWise" */;
+			buildPhases = (
+				152D42B92AF658B100844A39 /* Sources */,
+				152D42BA2AF658B100844A39 /* Frameworks */,
+				152D42BB2AF658B100844A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CashWise;
+			productName = CashWise;
+			productReference = 152D42BD2AF658B100844A39 /* CashWise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		152D42CE2AF658B200844A39 /* CashWiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152D42E62AF658B200844A39 /* Build configuration list for PBXNativeTarget "CashWiseTests" */;
+			buildPhases = (
+				152D42CB2AF658B200844A39 /* Sources */,
+				152D42CC2AF658B200844A39 /* Frameworks */,
+				152D42CD2AF658B200844A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				152D42D12AF658B200844A39 /* PBXTargetDependency */,
+			);
+			name = CashWiseTests;
+			productName = CashWiseTests;
+			productReference = 152D42CF2AF658B200844A39 /* CashWiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		152D42D82AF658B200844A39 /* CashWiseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152D42E92AF658B200844A39 /* Build configuration list for PBXNativeTarget "CashWiseUITests" */;
+			buildPhases = (
+				152D42D52AF658B200844A39 /* Sources */,
+				152D42D62AF658B200844A39 /* Frameworks */,
+				152D42D72AF658B200844A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				152D42DB2AF658B200844A39 /* PBXTargetDependency */,
+			);
+			name = CashWiseUITests;
+			productName = CashWiseUITests;
+			productReference = 152D42D92AF658B200844A39 /* CashWiseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		152D42B52AF658B100844A39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					152D42BC2AF658B100844A39 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					152D42CE2AF658B200844A39 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 152D42BC2AF658B100844A39;
+					};
+					152D42D82AF658B200844A39 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 152D42BC2AF658B100844A39;
+					};
+				};
+			};
+			buildConfigurationList = 152D42B82AF658B100844A39 /* Build configuration list for PBXProject "CashWise" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 152D42B42AF658B100844A39;
+			productRefGroup = 152D42BE2AF658B100844A39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				152D42BC2AF658B100844A39 /* CashWise */,
+				152D42CE2AF658B200844A39 /* CashWiseTests */,
+				152D42D82AF658B200844A39 /* CashWiseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		152D42BB2AF658B100844A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152D42CA2AF658B200844A39 /* Preview Assets.xcassets in Resources */,
+				152D42C72AF658B200844A39 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152D42CD2AF658B200844A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152D42D72AF658B200844A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		152D42B92AF658B100844A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152D42C32AF658B100844A39 /* ContentView.swift in Sources */,
+				152D42C52AF658B100844A39 /* Item.swift in Sources */,
+				152D42C12AF658B100844A39 /* CashWiseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152D42CB2AF658B200844A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152D42D42AF658B200844A39 /* CashWiseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152D42D52AF658B200844A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152D42E02AF658B200844A39 /* CashWiseUITestsLaunchTests.swift in Sources */,
+				152D42DE2AF658B200844A39 /* CashWiseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		152D42D12AF658B200844A39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 152D42BC2AF658B100844A39 /* CashWise */;
+			targetProxy = 152D42D02AF658B200844A39 /* PBXContainerItemProxy */;
+		};
+		152D42DB2AF658B200844A39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 152D42BC2AF658B100844A39 /* CashWise */;
+			targetProxy = 152D42DA2AF658B200844A39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		152D42E12AF658B200844A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		152D42E22AF658B200844A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		152D42E42AF658B200844A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CashWise/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prasanna.CashWise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		152D42E52AF658B200844A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CashWise/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prasanna.CashWise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		152D42E72AF658B200844A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prasanna.CashWiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashWise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CashWise";
+			};
+			name = Debug;
+		};
+		152D42E82AF658B200844A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prasanna.CashWiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashWise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CashWise";
+			};
+			name = Release;
+		};
+		152D42EA2AF658B200844A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prasanna.CashWiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CashWise;
+			};
+			name = Debug;
+		};
+		152D42EB2AF658B200844A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prasanna.CashWiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CashWise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		152D42B82AF658B100844A39 /* Build configuration list for PBXProject "CashWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152D42E12AF658B200844A39 /* Debug */,
+				152D42E22AF658B200844A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152D42E32AF658B200844A39 /* Build configuration list for PBXNativeTarget "CashWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152D42E42AF658B200844A39 /* Debug */,
+				152D42E52AF658B200844A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152D42E62AF658B200844A39 /* Build configuration list for PBXNativeTarget "CashWiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152D42E72AF658B200844A39 /* Debug */,
+				152D42E82AF658B200844A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152D42E92AF658B200844A39 /* Build configuration list for PBXNativeTarget "CashWiseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152D42EA2AF658B200844A39 /* Debug */,
+				152D42EB2AF658B200844A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 152D42B52AF658B100844A39 /* Project object */;
+}
