@@ -37,6 +37,7 @@ struct SignupView: View {
             }
             .frame(maxWidth: .infinity)
             .padding()
+            .navigationBarBackButtonHidden()
         }
     }
     

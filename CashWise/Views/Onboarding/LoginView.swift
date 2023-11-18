@@ -87,18 +87,7 @@ struct LoginView: View {
                     .foregroundStyle(AppColors.themeColor)
                     .fontWeight(.bold)
             }
-            .navigationBarBackButtonHidden(true)
-            .navigationBarItems(leading: CustomBackButton())
         }
-    }
-}
-
-struct CustomBackButton: View {
-    var body: some View {
-        Image(systemName: ImageNames.SystemIcons.backButton)
-            .resizable()
-            .frame(width: 20, height: 20)
-            .background(AppColors.subtitle)
     }
 }
 

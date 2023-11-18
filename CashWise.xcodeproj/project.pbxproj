@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		152D42C12AF658B100844A39 /* CashWiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152D42C02AF658B100844A39 /* CashWiseApp.swift */; };
 		152D42C32AF658B100844A39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152D42C22AF658B100844A39 /* ContentView.swift */; };
-		152D42C52AF658B100844A39 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152D42C42AF658B100844A39 /* Item.swift */; };
 		152D42C72AF658B200844A39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 152D42C62AF658B200844A39 /* Assets.xcassets */; };
 		152D42CA2AF658B200844A39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 152D42C92AF658B200844A39 /* Preview Assets.xcassets */; };
 		152D42D42AF658B200844A39 /* CashWiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152D42D32AF658B200844A39 /* CashWiseTests.swift */; };
 		152D42DE2AF658B200844A39 /* CashWiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152D42DD2AF658B200844A39 /* CashWiseUITests.swift */; };
 		152D42E02AF658B200844A39 /* CashWiseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152D42DF2AF658B200844A39 /* CashWiseUITestsLaunchTests.swift */; };
+		152D42EE2AF65AD800844A39 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 152D42ED2AF65AD800844A39 /* FirebaseAuth */; };
+		152D42F02AF65AD800844A39 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 152D42EF2AF65AD800844A39 /* FirebaseFirestore */; };
+		152D42F22AF65DAA00844A39 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 152D42F12AF65DAA00844A39 /* GoogleService-Info.plist */; };
+		152D42F42AF6628F00844A39 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152D42F32AF6628F00844A39 /* LoginView.swift */; };
+		152D42F62AF6665C00844A39 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152D42F52AF6665C00844A39 /* AppConstants.swift */; };
+		152D42FD2AF77F1C00844A39 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152D42FC2AF77F1C00844A39 /* SignupView.swift */; };
+		152D42FF2AF786F900844A39 /* OnboardingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152D42FE2AF786F900844A39 /* OnboardingTextField.swift */; };
+		152D43012AF79B0000844A39 /* GradientRoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152D43002AF79B0000844A39 /* GradientRoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +45,6 @@
 		152D42BD2AF658B100844A39 /* CashWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		152D42C02AF658B100844A39 /* CashWiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashWiseApp.swift; sourceTree = "<group>"; };
 		152D42C22AF658B100844A39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		152D42C42AF658B100844A39 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		152D42C62AF658B200844A39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		152D42C92AF658B200844A39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		152D42CF2AF658B200844A39 /* CashWiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashWiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +52,12 @@
 		152D42D92AF658B200844A39 /* CashWiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashWiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		152D42DD2AF658B200844A39 /* CashWiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashWiseUITests.swift; sourceTree = "<group>"; };
 		152D42DF2AF658B200844A39 /* CashWiseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashWiseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		152D42F12AF65DAA00844A39 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		152D42F32AF6628F00844A39 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		152D42F52AF6665C00844A39 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		152D42FC2AF77F1C00844A39 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		152D42FE2AF786F900844A39 /* OnboardingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingTextField.swift; sourceTree = "<group>"; };
+		152D43002AF79B0000844A39 /* GradientRoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				152D42EE2AF65AD800844A39 /* FirebaseAuth in Frameworks */,
+				152D42F02AF65AD800844A39 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,9 +110,11 @@
 		152D42BF2AF658B100844A39 /* CashWise */ = {
 			isa = PBXGroup;
 			children = (
-				152D42C02AF658B100844A39 /* CashWiseApp.swift */,
-				152D42C22AF658B100844A39 /* ContentView.swift */,
-				152D42C42AF658B100844A39 /* Item.swift */,
+				152D42FB2AF77EF000844A39 /* Helpers */,
+				152D42FA2AF77EC500844A39 /* App */,
+				152D42F82AF77E8E00844A39 /* ViewModels */,
+				152D42F72AF77E8300844A39 /* Views */,
+				152D42F12AF65DAA00844A39 /* GoogleService-Info.plist */,
 				152D42C62AF658B200844A39 /* Assets.xcassets */,
 				152D42C82AF658B200844A39 /* Preview Content */,
 			);
@@ -130,6 +146,49 @@
 			path = CashWiseUITests;
 			sourceTree = "<group>";
 		};
+		152D42F72AF77E8300844A39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				152D42F92AF77EAF00844A39 /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		152D42F82AF77E8E00844A39 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		152D42F92AF77EAF00844A39 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				152D42F32AF6628F00844A39 /* LoginView.swift */,
+				152D42FC2AF77F1C00844A39 /* SignupView.swift */,
+				152D42FE2AF786F900844A39 /* OnboardingTextField.swift */,
+				152D43002AF79B0000844A39 /* GradientRoundedButton.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		152D42FA2AF77EC500844A39 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				152D42C22AF658B100844A39 /* ContentView.swift */,
+				152D42C02AF658B100844A39 /* CashWiseApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		152D42FB2AF77EF000844A39 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				152D42F52AF6665C00844A39 /* AppConstants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +205,10 @@
 			dependencies = (
 			);
 			name = CashWise;
+			packageProductDependencies = (
+				152D42ED2AF65AD800844A39 /* FirebaseAuth */,
+				152D42EF2AF65AD800844A39 /* FirebaseFirestore */,
+			);
 			productName = CashWise;
 			productReference = 152D42BD2AF658B100844A39 /* CashWise.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +281,9 @@
 				Base,
 			);
 			mainGroup = 152D42B42AF658B100844A39;
+			packageReferences = (
+				152D42EC2AF65AD800844A39 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 152D42BE2AF658B100844A39 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -236,6 +302,7 @@
 			files = (
 				152D42CA2AF658B200844A39 /* Preview Assets.xcassets in Resources */,
 				152D42C72AF658B200844A39 /* Assets.xcassets in Resources */,
+				152D42F22AF65DAA00844A39 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +327,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				152D42FF2AF786F900844A39 /* OnboardingTextField.swift in Sources */,
+				152D42F42AF6628F00844A39 /* LoginView.swift in Sources */,
 				152D42C32AF658B100844A39 /* ContentView.swift in Sources */,
-				152D42C52AF658B100844A39 /* Item.swift in Sources */,
 				152D42C12AF658B100844A39 /* CashWiseApp.swift in Sources */,
+				152D42F62AF6665C00844A39 /* AppConstants.swift in Sources */,
+				152D42FD2AF77F1C00844A39 /* SignupView.swift in Sources */,
+				152D43012AF79B0000844A39 /* GradientRoundedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +657,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		152D42EC2AF65AD800844A39 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.17.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		152D42ED2AF65AD800844A39 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 152D42EC2AF65AD800844A39 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		152D42EF2AF65AD800844A39 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 152D42EC2AF65AD800844A39 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 152D42B52AF658B100844A39 /* Project object */;
 }
